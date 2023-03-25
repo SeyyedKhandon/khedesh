@@ -50,7 +50,7 @@ const Toggle = () => {
     );
 
   return (
-    <div className="relative mx-2 inline-flex items-center justify-center space-x-4 text-xl">
+    <div className="relative z-10 mx-2 inline-flex items-center justify-center space-x-4 text-xl">
       {selectedThemeIcon}
       {showThemeMenu && (
         <ul

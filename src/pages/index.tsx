@@ -1,9 +1,7 @@
 import Accomplishments from "@/components/accomplishments/accomplishments";
-import Header from "@/components/header/header";
 import Hero from "@/components/hero/hero";
 import Projects from "@/components/projects/projects";
 import Technologies from "@/components/technologies/technologies";
-import ThemeSwitcher from "@/components/theme/themeSwitcher";
 import TimeLine from "@/components/timeLine/timeLine";
 import Head from "next/head";
 
