@@ -10,17 +10,19 @@ export default function Hero() {
   }, []);
   return (
     <section className="mx-10 mt-20 flex h-screen flex-col items-center gap-5 text-3xl font-semibold">
-      <div
+      <h1
         ref={text}
         className="-translate-x-[100rem] transition-transform duration-1000"
       >
-        <p>Hi‚👋</p>
-        <p>My Name is</p>
-        <p className="bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-2xl font-bold text-transparent dark:from-blue-300 dark:to-pink-100">
+        Hi‚👋
+        <br />
+        My Name is
+        <br />
+        <span className="bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-2xl font-bold text-transparent dark:from-blue-300 dark:to-pink-100">
           SeyyedMahdi Hassanpour
-        </p>
-        <p>I build things for Web.</p>
-      </div>
+        </span>
+        <br />I build things for Web.
+      </h1>
       <div
         ref={image}
         className="inline-block translate-x-[100rem] rounded-full   bg-gradient-to-t from-blue-500 to-pink-500 p-2 transition-transform duration-1000"
