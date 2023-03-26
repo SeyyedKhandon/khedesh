@@ -3,7 +3,7 @@ import { educations, workExperience } from "@/data";
 
 export default function AboutMe() {
   return (
-    <section className="px-8">
+    <section className="px-8" id="about-me">
       <h2 className="mb-4 text-2xl font-bold">About Me</h2>
       <p>
         Creative software developer with 7+ years of experience in design and

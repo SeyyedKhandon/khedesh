@@ -24,7 +24,7 @@ export default function MobileMenu() {
           />
         </li>
         <li className="hover:bg-slate-100 dark:hover:bg-slate-600">
-          <Link className="block" href="/about">
+          <Link className="block" href="#about-me">
             About
           </Link>
         </li>

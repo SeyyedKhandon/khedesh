@@ -70,3 +70,51 @@ export const educations: Experience[] = [
     site: "",
   },
 ];
+export interface Skill {
+  title: string;
+  items: string;
+}
+export const skills: Skill[] = [
+  {
+    title: "Languages",
+    items: "JavaScript, TypeScript, HTML, CSS",
+  },
+  {
+    title: "JS Libraries & Frameworks",
+    items: "React, Next.js, Node.js, Redux, Redux Toolkit, Zustand, Zod",
+  },
+  {
+    title: "UI Libraries & Frameworks",
+    items:
+      "SASS, Emotion, Styled Component, Tailwind, Bootstrap, MUI, Storybook",
+  },
+  {
+    title: "Web Services",
+    items: "REST API, Axios, React Query, Websocket, GraphQl, ApolloClient",
+  },
+  {
+    title: "Testing",
+    items: "Jest, Testing Library, Vitest, MSW",
+  },
+  {
+    title: "Version Control Systems",
+    items: "Git, GitHub, GitLab",
+  },
+  {
+    title: "Tools",
+    items: "Webpack, Vite, NPM, Yarn, Sentry, SonarQube",
+  },
+  {
+    title: "Methodology",
+    items: "Agile, Scrum",
+  },
+  {
+    title: "Miscellaneous",
+    items: "Figma, Design System, Secure Development",
+  },
+  {
+    title: "Soft Skills",
+    items:
+      "Teamwork, Creativity, Problem Solving, Knowledge Sharing, Time Management",
+  },
+];

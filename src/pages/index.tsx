@@ -3,7 +3,8 @@ import Hero from "@/components/hero";
 import Projects from "@/components/projects";
 import Technologies from "@/components/technologies";
 import Head from "next/head";
-import AboutMe from "@/components/aboutMe";
+import AboutMe from "@/pages/about-me";
+import Skills from "@/pages/skills";
 
 function HeadTag() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <HeadTag />
       <Hero />
       <AboutMe />
+      <Skills />
       <Projects />
       <Technologies />
       <Accomplishments />
