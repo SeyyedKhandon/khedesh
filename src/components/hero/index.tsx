@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="mx-10 mt-20 flex h-screen flex-col items-center gap-5 text-3xl font-semibold">
+    <section className="flex h-screen flex-col items-center justify-center gap-5 px-8 text-3xl font-semibold">
       <h1 className="animate-fade-in-left">
         Hi‚👋
         <br />

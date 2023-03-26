@@ -9,18 +9,21 @@ export default function SocialMedia() {
   return (
     <section className="flex justify-evenly gap-2 text-4xl">
       <Link
+        target="_blank"
         className="hover:text-slate-500 dark:hover:text-slate-600"
         href="https://github.com/seyyedkhandon"
       >
         <AiOutlineGithub />
       </Link>
       <Link
+        target="_blank"
         className="hover:text-slate-500 dark:hover:text-slate-600"
         href="https://linkedin.com/in/seyyedkhandon"
       >
         <AiOutlineLinkedin />
       </Link>
       <Link
+        target="_blank"
         className="hover:text-slate-500 dark:hover:text-slate-600"
         href="https://youtube.com/cafedx_com"
       >
