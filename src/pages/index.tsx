@@ -2,8 +2,8 @@ import Accomplishments from "@/components/accomplishments";
 import Hero from "@/components/hero";
 import Projects from "@/components/projects";
 import Technologies from "@/components/technologies";
-import TimeLine from "@/components/aboutMe";
 import Head from "next/head";
+import AboutMe from "@/components/aboutMe";
 
 function HeadTag() {
   return (
@@ -21,9 +21,9 @@ export default function Home() {
     <>
       <HeadTag />
       <Hero />
+      <AboutMe />
       <Projects />
       <Technologies />
-      <TimeLine />
       <Accomplishments />
     </>
   );
