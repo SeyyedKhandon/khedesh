@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import MobileMenu from "@/components/navigation/mobileMenu";
-import ThemeSwitcher from "../theme/themeSwitcher";
+import ThemeSwitcher from "@/components/theme/themeSwitcher";
 
 export default function Header() {
   return (

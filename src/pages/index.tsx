@@ -1,8 +1,8 @@
-import Accomplishments from "@/components/accomplishments/accomplishments";
-import Hero from "@/components/hero/hero";
-import Projects from "@/components/projects/projects";
-import Technologies from "@/components/technologies/technologies";
-import TimeLine from "@/components/timeLine/timeLine";
+import Accomplishments from "@/components/accomplishments";
+import Hero from "@/components/hero";
+import Projects from "@/components/projects";
+import Technologies from "@/components/technologies";
+import TimeLine from "@/components/aboutMe";
 import Head from "next/head";
 
 function HeadTag() {
